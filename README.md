@@ -10,7 +10,7 @@ ES6进行学习
 
 
 学习整理不易：
-
+望鼓励
 
 ![望鼓励](https://github.com/zhangdan183/ES6/blob/master/File/WechatIMG17.jpeg)
 
