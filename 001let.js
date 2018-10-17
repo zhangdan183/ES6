@@ -1,3 +1,8 @@
+/**
+ * 20181017 张丹 有关let和var的学习
+ * 学习网址为：http://es6.ruanyifeng.com
+ * github地址:  https://github.com/zhangdan183/ES6
+ * */
 var a = [];
 for (var i = 0; i < 10; i++) {
     a[i] = function () {
@@ -39,4 +44,6 @@ console.log("局部变量之外的i是否还管用:" + i);
 /**
  * 其实上面的方法简化一下就是下面的方法，考验的是let是局部变量，而var是全局变量
  * 的简单介绍方法
+ *
+ * 接下来还有一个逻辑功能就是
  */
