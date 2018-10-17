@@ -4,6 +4,8 @@
  * github地址:  https://github.com/zhangdan183/ES6
  * 转载请注明出处
  * 阮一峰老师辛苦了
+ *
+ * 如果有理解错误，请大神及时纠正，谢谢。
  * */
 var a = [];
 for (var i = 0; i < 10; i++) {
