@@ -12,6 +12,6 @@ ES6进行学习
 学习整理不易：
 
 
-![望鼓励](http://a083234163e6342316a3.qiniucdn.apicloud-system.com/apicloud/37e8a4ede92179a8e715cf15e9242856.jpeg)
+![望鼓励](http://a083234163e6342316a3.qiniucdn.apicloud-system.com/apicloud/0f62ebdf9fd753a609dc7e90591844f1.jpeg)
 
 
