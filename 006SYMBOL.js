@@ -13,7 +13,7 @@ console.log(b);
 
 
 
-//symbol中的第一个属性
+//symbol中的第一个属性 可以生成两个一样名称的属性
 var mysymbol = Symbol();
 let other = {};
 other[mysymbol] = "name";
