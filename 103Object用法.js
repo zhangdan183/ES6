@@ -27,8 +27,16 @@ console.log(obj); // { "0": "a", "1": "b", "2": "c" }
 //覆盖数组
 Object.assign([1, 2, 3], [4, 5])
 // [4, 5, 3]
+/**
+ * 使用这个方法也可以将两个相同的键不同值的两个ob进行覆盖，后者覆盖前者
+ */
+const target = { a: { b: 'c', d: 'e' } }
+const source = { a: { b: 'hello' } }
+Object.assign(target, source);
 
-const objone = Object.create(prot);
-objone.foo = '123';
-
-console.log(objone);
+/**
+ * 克隆一个obj到一个新的对象里面去
+ * */
+const oldobj = {a: 'a', b: 'b'};
+const newobj = Object.assign({}, oldobj);
+console.log(newobj);
