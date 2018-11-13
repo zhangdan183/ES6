@@ -40,3 +40,4 @@ Object.assign(target, source);
 const oldobj = {a: 'a', b: 'b'};
 const newobj = Object.assign({}, oldobj);
 console.log(newobj);
+
