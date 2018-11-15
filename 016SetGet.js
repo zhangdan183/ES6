@@ -76,3 +76,30 @@ let intersect = new Set([...a].filter(x => b.has(x)));
 // 差集
 let difference = new Set([...a].filter(x => !b.has(x)));
 // Set {1}
+
+
+//WeakSet 结构与 Set 类似，也是不重复的值的集合。但是，它与 Set 有两个区别。
+
+//首先，WeakSet 的成员只能是对象，而不能是其他类型的值。
+
+
+console.log("----MAP--------------------------------------------------");
+
+const setmap = new Set([
+    ['aaa', 1],
+    ['bbb', 2]
+]);
+const m1 = new Map(setmap);
+console.log(m1.get('aaa'));
+
+const map = new Map();
+
+map
+    .set(1, 'aaa')
+    .set(1, 'bbb');
+
+map.get(1) // "bbb"
+
+new Map().get('asfddfsasadf')
+// undefined
+
