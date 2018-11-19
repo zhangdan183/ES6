@@ -1,4 +1,5 @@
 
+
 var person = {
     xingming: 'zhangdan',
     score: 59
@@ -36,7 +37,7 @@ var proxy = new Proxy(person, {
      * @param newTarget
      */
     construct: function(target, argArray, newTarget){
-        
+
     }
 });
 
@@ -48,3 +49,5 @@ console.log(proxy);
 
 
 console.log('score' in proxy);
+
+
