@@ -1,5 +1,3 @@
-
-
 var person = {
     xingming: 'zhangdan',
     score: 59
